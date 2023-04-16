@@ -1,6 +1,6 @@
 <template>
   <footer class="h-[621px] bg-black-500">
-    <div class="container py-24">
+    <div class="container pt-24">
       <div class="flex flex-col">
         <div class="mb-14 flex items-center">
           <img

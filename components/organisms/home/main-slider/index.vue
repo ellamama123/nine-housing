@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full">
+  <div class="relative mb-40 w-full">
     <!-- Carousel wrapper -->
     <div class="relative h-[720px] overflow-hidden">
       <div
@@ -21,7 +21,7 @@
       <button
         id="main-slider-indicator-0"
         type="button"
-        class="h-5 w-5 rounded-full"
+        class="h-5 rounded-full"
         aria-current="true"
         aria-label="Slide 0"
       />
@@ -31,7 +31,7 @@
         :key="indicator"
         :id="`main-slider-indicator-${indicator}`"
         type="button"
-        class="h-5 w-5 rounded-full"
+        class="h-5 rounded-full"
         aria-current="false"
         :aria-label="`Slide ${indicator}`"
       />
@@ -46,7 +46,7 @@
       <span
         class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-black-500 group-hover:bg-white/50 group-focus:outline-none"
       >
-        <img src="/icons/left-arrow.svg" alt="left arrow" />
+        <img src="/icons/left-arrow-white.svg" alt="left arrow-white" />
         <span class="hidden">Previous</span>
       </span>
     </button>
@@ -59,7 +59,7 @@
       <span
         class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-black-500 group-hover:bg-white/50 group-focus:outline-none"
       >
-        <img src="/icons/right-arrow.svg" alt="right arrow" />
+        <img src="/icons/right-arrow-white.svg" alt="right arrow-white" />
         <span class="hidden">Next</span>
       </span>
     </button>
@@ -96,7 +96,7 @@ onMounted(() => {
 
     indicators: {
       activeClasses: 'bg-yellow-500 w-10',
-      inactiveClasses: 'bg-black-400 hover:bg-yellow-500 hover:bg-yellow-500',
+      inactiveClasses: 'bg-black-400 hover:bg-yellow-500 hover:bg-yellow-500 w-5',
       items: [
         {
           position: 0,
