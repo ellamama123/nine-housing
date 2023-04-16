@@ -13,6 +13,9 @@
 <script lang="ts" setup>
 const isScrolling = ref(false)
 
+/**
+ * Change header class and show top button
+ */
 const updateScroll = () => {
   if (window.scrollY > 1) {
     isScrolling.value = true
