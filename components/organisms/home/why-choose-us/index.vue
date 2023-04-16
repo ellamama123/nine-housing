@@ -1,6 +1,6 @@
 <template>
   <div class="container mb-40">
-    <h2 class='mb-16 font-bold text-5xl'>Why choose us</h2>
+    <h2 class="mb-16 font-bold text-5xl">Why choose us</h2>
 
     <div class="grid grid-cols-2 gap-x-8">
       <ul class="list-inside list-none text-lg leading-[22px]">
@@ -30,7 +30,7 @@
         </li>
       </ul>
 
-      <img src="/mock-introduction.png" alt="introduction image" class='w-[570px] h-[391px]'/>
+      <img src="/mock-introduction.png" alt="introduction image" class="w-[570px] h-[391px]" />
     </div>
   </div>
 </template>

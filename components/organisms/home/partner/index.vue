@@ -15,7 +15,7 @@
             class="absolute left-1/2 top-1/2 grid h-[170px] w-[970px] -translate-x-1/2 -translate-y-1/2 grid-cols-5 gap-x-8"
           >
             <div v-for="partner in 5" :key="partner">
-              <img src="/mock-partner.png" alt="partner image" class='rounded-xl'/>
+              <img src="/mock-partner.png" alt="partner image" class="rounded-xl" />
             </div>
           </div>
         </div>

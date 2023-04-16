@@ -24,7 +24,10 @@
                   <div class="flex items-center justify-between">
                     <p class="text-lg text-black-500">February 7, 2023</p>
 
-                    <button type='button' class="p-2 rounded-full bg-yellow-500 text-center hover:bg-yellow-400">
+                    <button
+                      type="button"
+                      class="p-2 rounded-full bg-yellow-500 text-center hover:bg-yellow-400"
+                    >
                       <img src="/icons/right-arrow-white.svg" alt="right arrow" />
                     </button>
                   </div>
