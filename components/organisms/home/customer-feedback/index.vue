@@ -27,7 +27,11 @@
                 <p class="text-xl font-semibold">Nam Toong</p>
               </div>
 
-              <img src="/mock-customer.png" class="ml-8 w-[470px] h-[268px]" alt="main slider images" />
+              <img
+                src="/mock-customer.png"
+                class="ml-8 w-[470px] h-[268px]"
+                alt="main slider images"
+              />
             </div>
           </div>
         </div>
